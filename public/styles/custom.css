@@ -1,0 +1,168 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800,100,200);
+
+/*
+.navbar, .navbar-default {
+	background-color: rgb(20,53,226);
+	border-color: rgb(20,53,226);
+	
+}
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 100;
+	background-color: #003C6E;
+	color: #FFF;
+}
+
+span[style] {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+body#home {
+	background: none;
+}
+
+#header {
+	margin-top: 0;
+}
+
+.coming-soon {
+	padding-top: 25px; 
+	padding-bottom: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.coming-soon h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100px;
+	text-transform: uppercase;
+	color: #000;
+	/* color: rgb(255,255,255); */
+}
+
+
+.highlights-row {
+	padding-top: 100px;
+}
+
+.highlight {
+	color: #333;
+	text-align: center;
+	padding: 15px;
+	background-color: rgb(255,255,255);	
+}
+
+.highlight2 {
+
+	text-align: center;
+	letter-spacing: 3px;
+	background-color: #141414;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+
+}
+
+.highlight2:hover {
+	background-color: #279cd8;
+}
+
+ 
+.highlight2 a:link, a:visited, a:hover, a:active {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+/*
+.shunt-left {
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+.mid-shunt {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.shunt-right {
+	padding-left: 20px;
+	padding-right: 0px;
+}
+*/
+
+#app_form {
+	margin-top: 50px;
+}
+
+input, textarea {
+	padding: 3px 0;
+	border: 1px solid #ddd;
+	background: none repeat scroll 0 0 #fafafa;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border linear .2s,box-shadow linear .2s;
+	-moz-transition: border linear .2s,box-shadow linear .2s;
+	-o-transition: border linear .2s,box-shadow linear .2s;
+	transition: border linear .2s,box-shadow linear .2s;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.button {
+	width: 150px;
+}
+
+video#bgvid {
+	position: fixed; right: 0; top: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -9999;
+	background: url(polina.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.navbar {
+    text-transform: uppercase;
+    background-color: #49ADFF;
+
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #FFF;
+    background-color: #003561;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FFF;
+    background-color: #003561;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #FFF;
+}

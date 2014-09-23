@@ -1,0 +1,36 @@
+extends ../layouts/default
+
+block content
+	//
+		video#bgvid(autoplay='autoplay', muted='muted', loop='loop', poster='polina.jpg')
+			source(src='bgvid.mp4', type='video/mp4')
+			source(src='bgvid.webmhd', type='video/webm')
+
+	.container
+		.coming-soon.row
+			.col-md-12
+				a(href='')
+					img(src="images/logo.png", width="600px", height="auto").img-responsive.center-block        
+		.row
+			.shunt-left.col-xs-3
+				.highlight2
+					a(href='http://www.reddit.com/r/sacreddawn/')
+						img.img-responsive(src='highlight1.png').img-responsive
+					| ABOUT
+			.mid-shunt.col-xs-3
+				.highlight2
+					a(href='http://www.reddit.com/r/sacreddawn/')
+						img.img-responsive(src='highlight2.png')
+					| APPLICATION
+			.mid-shunt.col-xs-3
+				.highlight2
+					a(href='http://www.reddit.com/r/sacreddawn/')
+						img.img-responsive(src='highlight3.png')
+					| BLOG
+			.shunt-right.col-xs-3
+				.highlight2
+					a(href='http://www.reddit.com/r/sacreddawn/')
+						img.img-responsive(src='highlight4.png')
+					| FORUMS
+
+
