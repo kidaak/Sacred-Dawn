@@ -6,7 +6,7 @@
 
 exports.create = {
 	User: [
-		{ 'name.first': 'Admin', 'name.last': 'User', email: 'ian5015@live.com', password: 'ian5015@live.com', isAdmin: true }
+		{ 'name.first': 'Admin', 'name.last': 'User', email: 'ian5015@live.com', password: 'sadman99', isAdmin: true }
 	]
 };
 
@@ -15,7 +15,7 @@ exports.create = {
  * left here for reference as an example of how more complex updates
  * can be structured.
  */
-/*
+
 var keystone = require('keystone'),
 	async = require('async'),
 	User = keystone.list('User');
@@ -44,4 +44,4 @@ function createAdmin(admin, done) {
 exports = module.exports = function(done) {
 	async.forEach(admins, createAdmin, done);
 };
-*/
+
