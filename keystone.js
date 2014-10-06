@@ -19,7 +19,8 @@ keystone.init({
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': 'jade',
-	
+
+    'mongo' : 'mongodb://heroku_app30145728:2t3jcho67gin0gn7q21dd5dgaa@ds039850.mongolab.com:39850/heroku_app30145728',
 	
 	'auto update': true,
 	'session': true,

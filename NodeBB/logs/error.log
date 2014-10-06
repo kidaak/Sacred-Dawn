@@ -1,0 +1,3 @@
+{"level":"error","message":"[meta.restart] Could not restart, are you sure NodeBB was started with `./nodebb start`?","timestamp":"2014-09-29T01:34:21.037Z"}
+{"level":"error","message":"[meta.restart] Could not restart, are you sure NodeBB was started with `./nodebb start`?","timestamp":"2014-09-29T01:34:54.967Z"}
+{"level":"error","message":"[app] Could not restart server. Shutting down.","timestamp":"2014-09-30T23:10:00.488Z"}
