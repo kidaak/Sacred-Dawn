@@ -14,6 +14,8 @@ keystone.init({
 	'name': 'Sacred Dawn Website',
 	'brand': 'Sacred Dawn Website',
 
+    'mongo': 'mongodb://ian5015:sadman99@ds039850.mongolab.com:39850/heroku_app30145728',
+
 	'less': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',

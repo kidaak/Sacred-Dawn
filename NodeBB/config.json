@@ -1,13 +1,13 @@
 {
-    "base_url": "http://localhost",
+    "base_url": "http://sacreddawn.herokuapp.com/",
     "port": "4567",
     "secret": "e148f18d-df44-4249-bd30-8a33def84656",
     "bind_address": "0.0.0.0",
     "database": "redis",
     "redis": {
-        "host": "127.0.0.1",
-        "port": "6379",
-        "password": "",
+        "host": "greeneye.redistogo.com",
+        "port": "9608",
+        "password": "146d6ad71d78b1d9d7bddde8a9747409",
         "database": "0"
     },
     "bcrypt_rounds": 12,
