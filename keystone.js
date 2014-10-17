@@ -22,7 +22,7 @@ keystone.init({
 	'views': 'templates/views',
 	'view engine': 'jade',
 
-    'port' : process.env.PORT || 80,
+    'port' : process.env.PORT || 3000,
 
 	'auto update': true,
 	'session': true,
