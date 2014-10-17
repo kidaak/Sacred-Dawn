@@ -30,7 +30,7 @@ exports.initLocals = function(req, res, next) {
 		{ label: 'Blog',		key: 'blog',		href: '/blog' },
 		{ label: 'Gallery',		key: 'gallery',		href: '/gallery' },
 		{ label: 'Contact',		key: 'contact',		href: '/contact' },
-		{ label: 'Forums',		key: 'forums',		href: 'forums.sacreddawnls.net' }
+		{ label: 'Forums',		key: 'forums',		href: 'http://forums.sacreddawnls.net/' }
 	];
 	
 	locals.user = req.user;
