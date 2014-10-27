@@ -9,11 +9,22 @@
 }
 */
 
+/* general styles */
+html, body {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
 body {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 100;
 	background-color: #003C6E;
 	color: #FFF;
+}
+
+p {
+    font-size: 18px;
 }
 
 span[style] {
@@ -35,68 +46,6 @@ body#home {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.coming-soon h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 100px;
-	text-transform: uppercase;
-	color: #000;
-	/* color: rgb(255,255,255); */
-}
-
-
-.highlights-row {
-	padding-top: 100px;
-}
-
-.highlight {
-	color: #333;
-	text-align: center;
-	padding: 15px;
-	background-color: rgb(255,255,255);	
-}
-
-.highlight2 {
-
-	text-align: center;
-	letter-spacing: 3px;
-	background-color: #141414;
-	text-decoration: none;
-	-o-transition:.5s;
-	-ms-transition:.5s;
-	-moz-transition:.5s;
-	-webkit-transition:.5s;
-	transition:.5s;
-
-}
-
-.highlight2:hover {
-	background-color: #279cd8;
-}
-
- 
-.highlight2 a:link, a:visited, a:hover, a:active {
-	display: block;
-	text-decoration: none;
-	color: white;
-}
-
-/*
-.shunt-left {
-	padding-left: 0px;
-	padding-right: 20px;
-}
-
-.mid-shunt {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.shunt-right {
-	padding-left: 20px;
-	padding-right: 0px;
-}
-*/
 
 #app_form {
 	margin-top: 50px;
@@ -165,4 +114,148 @@ video#bgvid {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background-color: #FFF;
+}
+
+
+/* padded section */
+.pad-section {
+    padding: 50px 0;
+}
+.pad-section img {
+    width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+/* additional sections */
+#home {
+    background: url(../images/hero_1.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#about {
+}
+
+#services {
+     background-color: #49ADFF;
+     color: #ffffff;
+ }
+#services .glyphicon {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+}
+
+#services2 {
+    background-color: #49ADFF;
+    color: #ffffff;
+}
+#services2 .glyphicon {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+}
+
+#information {
+    background: url(../images/hero_1.jpg) no-repeat center center fixed;
+    display: table;
+    height: 400px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#information2 {
+    background: url(../images/hero_2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 400px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#information .panel {
+    opacity: 0.85;
+}
+
+#information2 .panel {
+    min-height: 200px;
+    opacity: 0.85;
+}
+
+
+#google_map {
+    height: 500px;
+}
+
+footer {
+    padding: 20px 0;
+}
+footer .glyphicon {
+    color: #333333;
+    font-size: 60px;
+}
+footer .glyphicon:hover {
+    color: #306d9f;
+}
+
+.icon {
+    width: 120px !important;
+    height: 120px !important;
+    /*border: 2px solid;*/
+    /*-webkit-border-radius: 100%;*/
+    /*-moz-border-radius: 100%;*/
+    /*border-radius: 100%;*/
+}
+
+h2.panel-title {
+    font-size: 30px;
+}
+
+.panel-body {
+    color: #333;
 }

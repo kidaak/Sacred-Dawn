@@ -1,36 +1,121 @@
 extends ../layouts/default
 
 block content
-	//
-		video#bgvid(autoplay='autoplay', muted='muted', loop='loop', poster='polina.jpg')
-			source(src='bgvid.mp4', type='video/mp4')
-			source(src='bgvid.webmhd', type='video/webm')
+    //
+        video#bgvid(autoplay='autoplay', muted='muted', loop='loop', poster='polina.jpg')
+            source(src='bgvid.mp4', type='video/mp4')
+            source(src='bgvid.webmhd', type='video/webm')
+    #logo
+        .container
+            .coming-soon.row
+                .col-md-12
+                    img(src="images/logo.png", width="600px", height="auto").img-responsive.center-block
 
-	.container
-		.coming-soon.row
-			.col-md-12
-				a(href='')
-					img(src="images/logo.png", width="600px", height="auto").img-responsive.center-block        
-		.row
-			.shunt-left.col-xs-3
-				.highlight2
-					a(href='http://www.reddit.com/r/sacreddawn/')
-						img.img-responsive(src='highlight1.png').img-responsive
-					| ABOUT
-			.mid-shunt.col-xs-3
-				.highlight2
-					a(href='http://www.reddit.com/r/sacreddawn/')
-						img.img-responsive(src='highlight2.png')
-					| APPLICATION
-			.mid-shunt.col-xs-3
-				.highlight2
-					a(href='http://www.reddit.com/r/sacreddawn/')
-						img.img-responsive(src='highlight3.png')
-					| BLOG
-			.shunt-right.col-xs-3
-				.highlight2
-					a(href='http://www.reddit.com/r/sacreddawn/')
-						img.img-responsive(src='highlight4.png')
-					| FORUMS
+    #services.pad-section
+        .container
+            h2.text-center Who We Are
+            hr
+            .row.text-center
+                .col-sm-4.col-xs-12
+                    img(src="images/chocobo.png").img-responsive.center-block.icon
+                    h4 Fans
+                    p
+                        | Many of us have been longtime fans of the Final Fantasy series, and have long histories in both FFXI and FFXIV. With such a long history, you know we'll be around for years to come!
+                .col-sm-4.col-xs-12
+                    img(src="images/trinity_icon.png").img-responsive.center-block.icon
+                    h4 Community
+                    p
+                        | We are primarily a social community of gamers, and even play games together outside of FFXIV. Our primary goal is to have a fun!
+                .col-sm-4.col-xs-12
+                    img(src="images/BUSTER_SWORD.png").img-responsive.center-block.icon
+                    h4 Raiders
+                    p
+                        | But that doesn't mean we don't like to get our hands dirty. Many of us are active raiders, having completed much of the current endgame content.
 
+
+    #information.pad-section
+        .container
+            .row
+                .col-sm-12
+                    .panel.panel-default
+                        .panel-heading
+                            h2.panel-title History of Sacred Dawn
+                        .panel-body.lead
+                            p
+                                | The Free Company Sacred Dawn was founded at the launch for FFXIV 1.0 by Thalamant and
+                                | a group of friends that played FFXI together for years. That group was then led in
+                                | FFXI by Kailok in a linkshell called Twilight Edge, a linkshell that has been
+                                | reincarnate in FFXIV our relationships across Free Companies.
+                            p
+                                | In FFXI, Twilight Edge was a successful social and endgame linkshell that was active
+                                | in Sky and Limbus, and would frequently help other players to get access to Sky and
+                                | Sea.
+                            p
+                                | Twilight Edge's core group has stayed together since then and grown to become a family,
+                                | eventually becoming the group known today as Sacred Dawn. Sacred Dawn has beaten many
+                                | of the Extreme Primals and frequenty runs Second Coil of Bahamut with players inside
+                                | and outside the Free Company.
+
+    #services2.pad-section
+        .container
+            h2.text-center Interested in Joining Sacred Dawn?
+            hr
+            .row.text-center
+                .col-sm-12
+                    p
+                        | Sacred Dawn is currently recruiting, but we are an exclusive group and because of that we are
+                        | now requiring all players interested in joining to apply to the Free Company either here on the
+                        | website using our online form, or by speaking to one of our Ambassadors online who will just
+                        | ask a few simple questions designed to make sure your personality is a good fit for our group.
+                    p
+                        | Please don't let this deter you from applying! We're not running a sweat shop and want FFXIV to
+                        | be a positive experience for all our members, instead of feeling like work. This application
+                        | process is merely designed to help find the community that is right for you.
+
+    #information2.pad-section
+        .container
+            .row
+                .col-sm-6
+                    .panel.panel-default
+                        .panel-heading
+                            h2.panel-title Apply Using Our Form!
+                        .panel-body.lead
+                            | Fill out our simple application
+                            | <a href="/contact"> here</a>.
+                .col-sm-6
+                    .panel.panel-default
+                        .panel-heading
+                            h2.panel-title Apply in Person!
+                        .panel-body.lead
+                            | Our current ambassadors are Kailok Anarhin, Cynestro Daevak, and Ominai Cinder, any of which would be happy to chat with you about joining Sacred Dawn.
+
+    #services.pad-section
+        .container
+            .row
+                .col-sm-12.text-center
+                    h3 Parallax scrolling effect is in action
+                    h4 The next is the address on Google maps
+
+
+        //.row
+        //    .shunt-left.col-xs-3
+        //        .highlight2
+        //            a(href='http://www.reddit.com/r/sacreddawn/')
+        //                img.img-responsive(src='highlight1.png').img-responsive
+        //            | ABOUT
+        //    .mid-shunt.col-xs-3
+        //        .highlight2
+        //            a(href='http://www.reddit.com/r/sacreddawn/')
+        //                img.img-responsive(src='highlight2.png')
+        //            | APPLICATION
+        //    .mid-shunt.col-xs-3
+        //        .highlight2
+        //            a(href='http://www.reddit.com/r/sacreddawn/')
+        //                img.img-responsive(src='highlight3.png')
+        //            | BLOG
+        //    .shunt-right.col-xs-3
+        //        .highlight2
+        //            a(href='http://www.reddit.com/r/sacreddawn/')
+        //                img.img-responsive(src='highlight4.png')
+        //            | FORUMS
 
