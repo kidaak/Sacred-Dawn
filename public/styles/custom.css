@@ -195,11 +195,13 @@ video#bgvid {
 }
 
 #information {
-    background: url(../images/hero_1.jpg) no-repeat center center fixed;
+    background: url(../images/hero_5.jpg) no-repeat center center fixed;
     display: table;
     height: 400px;
     position: relative;
     width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -207,11 +209,13 @@ video#bgvid {
 }
 
 #information2 {
-    background: url(../images/hero_2.jpg) no-repeat center center fixed;
+    background: url(../images/hero_7.jpg) no-repeat center center fixed;
     display: table;
     height: 400px;
     position: relative;
     width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -259,3 +263,4 @@ h2.panel-title {
 .panel-body {
     color: #333;
 }
+
